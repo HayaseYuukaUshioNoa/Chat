@@ -1,0 +1,35 @@
+//
+// Created by tom on 25-10-15.
+//
+
+#ifndef CHATSERVER_ERRORCODE_H
+#define CHATSERVER_ERRORCODE_H
+
+enum ErrorCode {
+    SUCCESS = 0,
+    ERROR = 1,
+    JSON_ERROR = 1001,
+    RPC_ERROR = 1002,
+    USER_LOGIN_ERROR = 1003,
+    FIND_USER_ERROR = 1004,
+    INSERT_FRIEND_REQUEST_ERROR = 1005,
+    SEARCH_FRIEND_REQUEST_ERROR = 1006,
+    SEARCH_FRIEND_RESPONSE_ERROR = 1007,
+    SEARCH_FRIENDS_ERROR = 1008,
+    SEARCH_MESSAGES_ERROR = 1009,
+    MSG_SEND_ERROR = 1010
+};
+
+enum MsgType {
+    MSG_LOGIN, // 登录消息
+    MSG_FIND, // 查找消息
+    MSG_FRIEND_REQ, // 添加好友请求
+    MSG_FRIEND_RES, // 添加好友响应
+    MSG_SHOW_FRIEND_REQ, // 显示好友列表
+    MSG_SHOW_CONTACT, // 显示联系人
+    MSG_SHOW_MESSAGES, // 显示消息
+    MSG_SEND_MESSAGE, // 发送消息
+    MSG_RECV_MESSAGE // 接收消息
+};
+
+#endif //CHATSERVER_ERRORCODE_H

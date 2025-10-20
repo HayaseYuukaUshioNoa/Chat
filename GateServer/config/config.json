@@ -1,0 +1,26 @@
+{
+  "StatusServer": {
+    "host": "127.0.0.1",
+    "port": "50050"
+  },
+  "VerifyCodeServer": {
+    "host": "127.0.0.1",
+    "port": "50051"
+  },
+  "MySql": {
+    "host": "127.0.0.1",
+    "port": "3306",
+    "username": "tom",
+    "password": "tom",
+    "dbname": "user_register",
+    "pool_size": "5"
+  },
+  "Redis": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "pool_size": "5"
+  },
+  "GateServer": {
+    "port": "8080"
+  }
+}

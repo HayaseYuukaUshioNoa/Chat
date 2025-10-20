@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package message;
+
+service StatusService {
+    rpc GetChatServer (GetChatServerReq) returns (GetChatServerRsp);
+    rpc LoginVerify (LoginVerifyReq) returns (LoginVerifyRsp);
+}
+
+message GetChatServerReq {
+    int32 uid = 1;
+}
+
+message GetChatServerRsp {
+    string host = 1;
+    int32 port = 2;
+    string token = 3;
+    int32 error = 4;
+}
+
+message LoginVerifyReq {
+    int32 uid = 1;
+    string token = 2;
+}
+
+message LoginVerifyRsp {
+    int32 error = 1;
+}

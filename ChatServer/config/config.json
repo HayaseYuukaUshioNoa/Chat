@@ -1,0 +1,17 @@
+{
+  "StatusServer": {
+    "host": "127.0.0.1",
+    "port": "50050"
+  },
+  "ChatServer": {
+    "port": "9524"
+  },
+  "MySql": {
+    "host": "127.0.0.1",
+    "port": "3306",
+    "username": "tom",
+    "password": "tom",
+    "dbname": "user_register",
+    "pool_size": "5"
+  }
+}
