@@ -1,7 +1,7 @@
 {
   "email": {
-    "user": "1846349950@qq.com",
-    "pass": "rcrhnzqxbotgeche"
+    "user": "example@qq.com",
+    "pass": "xxxxxxxxxxxxxx"
   },
   "Redis": {
     "host": "localhost",
